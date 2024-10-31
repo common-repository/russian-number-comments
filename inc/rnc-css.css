@@ -1,0 +1,33 @@
+tt {
+    padding: 1px 5px 1px;
+    margin: 0 1px;
+    background: #eaeaea;
+    background: rgba(0,0,0,.07);
+    font-size: 13px;
+    font-family: Consolas,Monaco,monospace;
+    unicode-bidi: embed;
+    color: crimson;
+}
+.about li {
+    list-style-type: square;
+    margin: 0px 0px 3px 35px;
+}    
+.postbox iframe {max-width:100%;}
+#yadonate {
+    color: #000;
+    cursor: pointer;
+    text-decoration: none;
+    background-color:#ffdb4d;
+    padding: 3px 26px 4px 25px;
+    font-size: 15px;
+    border-radius: 3px;
+    border: 1px solid rgba(0,0,0,.1);
+    transition: background-color .1s ease-out 0s;
+}    
+#yadonate:hover {
+    background-color:#fc0;
+}  
+#yadonate:focus,#yadonate:active {
+    outline:none;
+    box-shadow: none;
+} 
